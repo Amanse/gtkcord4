@@ -6,9 +6,9 @@ import (
 	"github.com/diamondburned/adaptive"
 	"github.com/diamondburned/gotkit/app"
 	"github.com/diamondburned/gotkit/gtkutil/cssutil"
-	"./internal/gtkcord"
-	"./internal/gtkcord/window"
-
+	"github.com/diamondburned/gtkcord4/internal/gtkcord"
+	"github.com/diamondburned/gtkcord4/internal/gtkcord/window"
+	
 	_ "github.com/diamondburned/gotkit/gtkutil/aggressivegc"
 )
 
