@@ -38,3 +38,8 @@ require (
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	golang.org/x/tools v0.0.0-20200212150539-ea181f53ac56 // indirect
 )
+
+replace (
+	github.com/diamondburned/gtkcord4/internal/gtkcord => "./internal/gtkcord"
+	github.com/diamondburned/gtkcord4/internal/gtkcord/window => "./internal/gtkcord/window" 
+)
